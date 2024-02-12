@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { Close, HamBurger, SymbolLogo, SymbolLogo1 } from "./icons/icons";
+import { Close, HamBurger, SymbolLogo, SymbolLogo1 } from "../icons/icons";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
